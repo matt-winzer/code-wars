@@ -4,4 +4,4 @@ function validatePIN (pin) {
   }).length === 0
 }
 
-console.log(validatePIN('1346'));
+validatePIN('1346')
