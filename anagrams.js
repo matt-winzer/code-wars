@@ -2,7 +2,7 @@ function anagrams(word, words) {
   return words.filter(testWord => {
     return word.split('').sort().join() === testWord.split('').sort().join()
   })
-}
+}g
 
 
 
